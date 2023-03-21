@@ -33,7 +33,8 @@ const server = http.createServer((req, res) => {
 
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
-});```
+});
+```
 
 > This server will listen on port 3000 and respond with "Hello World" to any HTTP requests it receives.
 
