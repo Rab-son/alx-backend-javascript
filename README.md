@@ -20,7 +20,7 @@
 > To run a JavaScript back-end server, you'll need to write a JavaScript file that creates an HTTP server using Node.js's built-in http module. Here's an example of a simple HTTP server:
 
 
-`const http = require('http');
+```const http = require('http');
 
 const hostname = '127.0.0.1';
 const port = 3000;
@@ -33,7 +33,7 @@ const server = http.createServer((req, res) => {
 
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
-});`
+});```
 
 > This server will listen on port 3000 and respond with "Hello World" to any HTTP requests it receives.
 
