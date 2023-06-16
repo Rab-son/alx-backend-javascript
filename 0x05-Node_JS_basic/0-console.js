@@ -1,6 +1,5 @@
 function displayMessage(message) {
     console.log(message);
-  }
+}
   
-  // Example usage:
-  displayMessage("Hello, world!");
+module.exports = displayMessage;
